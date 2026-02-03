@@ -10,4 +10,10 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/gestion-scolaire-ucao/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true
+  }
 })
